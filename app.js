@@ -5,7 +5,7 @@ const answerButtonContainer = document.getElementById("answer-buttons-container"
 const resultContainer = document.getElementById("results-container");
 
 const loadAllQuiz = async () => {
-    const response = await fetch("./quizzes.json");
+    const response = await fetch("./quizes.json");
     const quizzes = await response.json();
   
     quizzes.forEach((quiz, index) => {
