@@ -1,7 +1,10 @@
 body {
     font-family: Arial, sans-serif;
   }
-  
+h1{
+  text-align: center;
+
+}  
   #quiz-container, #results-container {
     max-width: 500px;
     margin: 0 auto;
@@ -38,9 +41,10 @@ body {
   
   #quiz-selector {
     display: flex;
-    justify-content: center;
+    justify-content:space-evenly;
     flex-wrap: wrap;
-    margin: 0 500px;
+    width: 80%;
+    margin: 0px auto;
   }
   
   .quiz-card {
